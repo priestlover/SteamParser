@@ -19,12 +19,13 @@ namespace SteamParser
 
             List<string> urls = new List<string>();
             urls = getUrls("https://store.steampowered.com/search/?os=win&hidef2p=1&filter=popularnew");
+            //dsf
             //foreach (string url in urls)
             //{
             //    Parse(url);
             //}
         }
-
+        
         public static object Parse(String url)
         {
             try
